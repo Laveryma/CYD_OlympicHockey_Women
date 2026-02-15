@@ -1,6 +1,6 @@
 # Audio: O Canada Playback (Women)
 
-This women's firmware can play `O Canada` once per game when the tracked Canada event changes from `pre` to `in`.
+This women's firmware can play `O Canada` once per game when the tracked Canada event changes from `pre` to `in`. <--(Or any .wav you choose to upload)
 
 ## Required file
 
@@ -42,3 +42,4 @@ pio run -e esp32-cyd-sdfix -t uploadfs
 Playback uses `ANTHEM_DAC_PIN` from `include/config.h` (default `GPIO25`).
 As currently configured in this repo, `ANTHEM_DAC_PIN_ALT=26` and `ANTHEM_GAIN_PCT=220`.
 Set `ANTHEM_DAC_PIN_ALT` to match your board wiring (`25`/`26`) if needed.
+
