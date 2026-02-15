@@ -2,6 +2,9 @@
 
 ESP32-2432S028 (CYD) scoreboard for **Milano Cortina 2026 women's hockey**.
 
+<img width="1374" height="746" alt="WomenGameDay" src="https://github.com/user-attachments/assets/b1f9f8d9-14d4-4920-a4f5-0cd7b9fddb46" /><img width="567" height="403" alt="Live" src="https://github.com/user-attachments/assets/6eb5cefd-22ab-4444-a3db-816a199f9a63" />
+
+
 ## What it does
 
 - Uses ESPN Olympic women's hockey JSON feed
@@ -88,6 +91,7 @@ See `README_AUDIO.md` for WAV format and upload instructions.
 
 ## Support
 
-If you enjoy what I’m making and want to support more late-night builds, experiments, and ideas turning into reality, it's genuinely appreciated.
+If you enjoy what Iâ€™m making and want to support more late-night builds, experiments, and ideas turning into reality, it's genuinely appreciated.
 
 - https://buymeacoffee.com/zerocypherxiii
+
