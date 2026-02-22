@@ -1,4 +1,4 @@
-# CYD Olympic Hockey Scoreboard (Canada Women)
+# CYD Olympic Hockey Scoreboard (Women)
 
 ESP32-2432S028 (CYD) scoreboard for **Milano Cortina 2026 women's hockey**.
 
@@ -8,11 +8,11 @@ ESP32-2432S028 (CYD) scoreboard for **Milano Cortina 2026 women's hockey**.
 ## What it does
 
 - Uses ESPN Olympic women's hockey JSON feed
-- Focuses on `CAN` (Team Canada women)
+- Default to focus on `CAN` (Team Canada women) <-- Easily updated to any participating nation
 - Auto-selects event priority:
-  - in-progress Canada game
-  - else next scheduled Canada game (countdown)
-  - else most recent completed Canada game
+  - in-progress Canada (or user defined nation) game
+  - else next scheduled Canada (or user defined nation) game (countdown)
+  - else most recent completed Canada (or user defined nation) game
 - Screens:
   - `NEXT_GAME` (merged no-game + pre-game)
   - `LIVE`
@@ -94,4 +94,5 @@ See `README_AUDIO.md` for WAV format and upload instructions.
 If you enjoy what I’m making and want to support more late-night builds, experiments, and ideas turning into reality, it's genuinely appreciated.
 
 - https://buymeacoffee.com/zerocypherxiii
+
 
