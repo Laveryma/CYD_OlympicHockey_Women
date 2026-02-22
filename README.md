@@ -62,6 +62,7 @@ Preferred paths:
 - `/flags/64/CAN.png`
 - `/flags/96/CAN.png`
 - optional canonical fallback `/flags/CAN.png`
+
 *If favourite nation flag is not listed in `data/flags/`, run the included fetch flags tool (`tools/fetch_flags.py`) or find your own flag image, resize to 56px, 64px, 96px, then save to appropriate `data/flags` folders as `<NOC>.png`
 
 Generate/download flags from ESPN:
@@ -95,6 +96,7 @@ See `README_AUDIO.md` for WAV format and upload instructions.
 If you enjoy what I’m making and want to support more late-night builds, experiments, and ideas turning into reality, it's genuinely appreciated.
 
 - https://buymeacoffee.com/zerocypherxiii
+
 
 
 
