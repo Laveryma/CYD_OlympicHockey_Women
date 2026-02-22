@@ -18,8 +18,7 @@
 // Use HSPI for ESP32-2432S028 (non-R) CYD panels.
 #define TFT_SPI_PORT HSPI
 
-  // 55MHz is unstable on many CYD (Sunton) ILI9341 boards and can produce
-  // partial-frame "snow" or tearing at screen edges.
+  // 55MHz is unstable on many CYD (Sunton) ILI9341 boards and can produce partial-frame "snow" or tearing at screen edges.
   // 27MHz is conservative and reliable.
   #define SPI_FREQUENCY  27000000
 #define SPI_READ_FREQUENCY 20000000
@@ -36,6 +35,7 @@
 #define LOAD_GFXFF
 
 #define SMOOTH_FONT
+
 
 
 
