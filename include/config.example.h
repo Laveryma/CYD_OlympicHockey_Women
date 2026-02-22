@@ -1,10 +1,15 @@
+// Create your real `include/config.h` by copying this file and filling in the values below.
 #pragma once
 
 // ---- Wi-Fi ----
-// Create your real `include/config.h` by copying this file and filling in the
-// values below.
-#define WIFI_SSID     "YOUR_WIFI_SSID"
-#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+// Wi-Fi (primary + fallback).
+// Device prefers WIFI_SSID_1 when it is visible, otherwise it will try WIFI_SSID_2.
+// Set WIFI_SSID_2 to "" to disable fallback.
+#define WIFI_SSID_1       ""
+#define WIFI_PASSWORD_1   ""
+
+#define WIFI_SSID_2       ""
+#define WIFI_PASSWORD_2   ""
 
 // Optional: RSSI hysteresis (dB) when both SSIDs are visible.
 // Higher = stickier to the last network.
@@ -77,6 +82,7 @@
 #ifndef ANTHEM_GAIN_PCT
 #define ANTHEM_GAIN_PCT 100
 #endif
+
 
 
 
